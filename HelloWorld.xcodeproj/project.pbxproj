@@ -19,6 +19,7 @@
 		024C5D06190EAB3D005974B9 /* libTouchVGCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C5CC6190EAB3D005974B9 /* libTouchVGCore.a */; };
 		024C5D07190EAB3D005974B9 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 024C5CC7190EAB3D005974B9 /* Readme.txt */; };
 		024C5D09190EB36C005974B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C5D08190EB36C005974B9 /* QuartzCore.framework */; };
+<<<<<<< HEAD
 		024C5D29190EC3EF005974B9 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 024C5D0F190EC3EE005974B9 /* Black.png */; };
 		024C5D2A190EC3EF005974B9 /* Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 024C5D10190EC3EE005974B9 /* Black@2x.png */; };
 		024C5D2B190EC3EF005974B9 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 024C5D11190EC3EE005974B9 /* Blue.png */; };
@@ -57,6 +58,9 @@
 		BF6C2FF01914A99400488094 /* shape.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6C2FEF1914A99400488094 /* shape.png */; };
 		BFDEFBA8190FB2E600EFC891 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEFBA7190FB2E600EFC891 /* SettingViewController.m */; };
 		BFDEFBAE191007C600EFC891 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDEFBAD191007C600EFC891 /* Main_iPhone.storyboard */; };
+=======
+		0266E878191E5285005154BA /* TouchVG.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0266E877191E5285005154BA /* TouchVG.bundle */; };
+>>>>>>> ae4931e40fb8414ad2675b61fba2f143265f029e
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +140,7 @@
 		024C5D03190EAB3D005974B9 /* spfactoryimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spfactoryimpl.h; sourceTree = "<group>"; };
 		024C5D04190EAB3D005974B9 /* testcanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testcanvas.h; sourceTree = "<group>"; };
 		024C5D08190EB36C005974B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+<<<<<<< HEAD
 		024C5D0F190EC3EE005974B9 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
 		024C5D10190EC3EE005974B9 /* Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black@2x.png"; sourceTree = "<group>"; };
 		024C5D11190EC3EE005974B9 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
@@ -175,6 +180,9 @@
 		BFDEFBA6190FB2E600EFC891 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		BFDEFBA7190FB2E600EFC891 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		BFDEFBAD191007C600EFC891 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+=======
+		0266E877191E5285005154BA /* TouchVG.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TouchVG.bundle; sourceTree = "<group>"; };
+>>>>>>> ae4931e40fb8414ad2675b61fba2f143265f029e
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +260,7 @@
 		024C5CC4190EAB3D005974B9 /* touchvg */ = {
 			isa = PBXGroup;
 			children = (
+				0266E877191E5285005154BA /* TouchVG.bundle */,
 				024C5CC5190EAB3D005974B9 /* libTouchVG.a */,
 				024C5CC6190EAB3D005974B9 /* libTouchVGCore.a */,
 				024C5CC7190EAB3D005974B9 /* Readme.txt */,
@@ -448,11 +457,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				024C5D35190EC3EF005974B9 /* Grey.png in Resources */,
 				024C5D2D190EC3EF005974B9 /* Brown.png in Resources */,
 				024C5D3A190EC3EF005974B9 /* LightGreen@2x.png in Resources */,
 				024C5D42190EC3EF005974B9 /* Yellow@2x.png in Resources */,
 				024C5D3D190EC3EF005974B9 /* Setting-1.png in Resources */,
+=======
+				0266E878191E5285005154BA /* TouchVG.bundle in Resources */,
+				024C5CA2190EA6D8005974B9 /* Main_iPad.storyboard in Resources */,
+>>>>>>> ae4931e40fb8414ad2675b61fba2f143265f029e
 				024C5CA7190EA6D8005974B9 /* Images.xcassets in Resources */,
 				024C5D38190EC3EF005974B9 /* LightBlue@2x.png in Resources */,
 				024C5D31190EC3EF005974B9 /* DarkOrange.png in Resources */,
