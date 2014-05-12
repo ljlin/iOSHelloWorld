@@ -35,6 +35,7 @@ void outputrect(CGRect t)
 {
     [super viewDidLoad];
     GiViewHelper *helper = [GiViewHelper sharedInstance];
+<<<<<<< HEAD
     self.mPaintView = [helper createGraphView:self.mainMage.frame :self.view];
     [helper addDelegate:self];
     helper.command = @"splines";
@@ -165,6 +166,10 @@ void outputrect(CGRect t)
 {
     GiViewHelper *helper = [GiViewHelper sharedInstance];
     [helper clearShapes];
+=======
+    [helper createGraphView:self.view.bounds :self.view];
+    helper.command = @"line";
+>>>>>>> ae4931e40fb8414ad2675b61fba2f143265f029e
 }
 
 @end
